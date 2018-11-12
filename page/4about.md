@@ -40,6 +40,7 @@ type: page
 * [Twitter](https://twitter.com/gaohaoyang126)
 * [豆瓣](https://www.douban.com/people/42525035/)
 * [豆瓣音乐人-浩阳的小站](https://site.douban.com/haoyangaiyinyue/)
+* [俊达的邮箱](https://www.baidu.com)
 
 ## 关于本站
 
