@@ -35,7 +35,7 @@ author: jida
 5. 添加所有发生变更的文件 git add .
 6. 提交到本地
     git commit -am "first commit init project"
-    (-am 后面添加注释)
+    (-am 后面添加注释)  
     这块还遇到过不能提交的问题
     [解决方法](https://blog.csdn.net/senior_lee/article/details/54667679)
 7. 连接到码云
