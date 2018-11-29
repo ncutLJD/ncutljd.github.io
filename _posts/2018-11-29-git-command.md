@@ -69,5 +69,10 @@ author: jida
     [解决办法](https://blog.csdn.net/MAMAIMAI/article/details/79820704)
 10. 从码云同步代码 git pull
 11. 强制提交代码 git push -u -f origin master(-f 强制)
+12. 查看远程分支 git branch -r
+13. 创建分支
+
+    git checkout -b v1.0 origin/master (在origin/master基础上生成v1.0分支)
+14. 分支上传 git push origin HEAD -u(HEAD是什么意思)
   ---
 码云地址：https://gitee.com/ncut_LJD
