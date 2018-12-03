@@ -73,6 +73,11 @@ author: jida
 13. 创建分支
 
     git checkout -b v1.0 origin/master (在origin/master基础上生成v1.0分支)
-14. 分支上传 git push origin HEAD -u(HEAD是什么意思)
+14. 分支上传 git push origin HEAD -u(推送到当前分支)
   ---
 码云地址：https://gitee.com/ncut_LJD
+
+## git的基本命令
+- 获取分支上的代码
+
+  git clone -b 分支名称 git地址
