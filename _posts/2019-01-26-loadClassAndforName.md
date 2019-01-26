@@ -26,6 +26,7 @@ author: lijd
 ##### loadClass和forName
 
 - loadClass 链接默认是false
+
 ```
 public Class<?> loadClass(String name) throws ClassNotFoundException {  
     //resolve 默认是false 所以不会链接指定的类
@@ -41,11 +42,10 @@ protected Class<?> loadClass(String name, boolean resolve)   throws ClassNotF
 
 //Links the specified class.
 protected final void resolveClass(Class<?> c) {  resolveClass0(c); }
-
 ```
 
-
 - forName 默认是初始化的
+
 ```
 public static Class<?> forName(String className)  throws ClassNotFoundException { 
     // initialize true
@@ -58,6 +58,7 @@ public static Class<?> forName(String className)  throws ClassNotFoundException
 这是在不同的场景有不同的作用
 forName可以初始化静态块
 例如mysql的Driver驱动 就是通过forName进行加载的
+
 ```
 Class.forName("com.mysql.jdbc.Driver");
 
