@@ -9,7 +9,7 @@ author: lijd
 * content
 {:toc}
 
-###Springboot对配置文件的读取顺序
+### Springboot对配置文件的读取顺序
 
 如果在不同的目录中存在多个配置文件，它的读取顺序是：
 1. config/application.properties (项目根目录中config目录下)
